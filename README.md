@@ -1,5 +1,5 @@
-# **strapi-ssr-starter**
-Project quickstarter for SSR with Express.js and Next.js.
+# **fs-notes**
+Full-Stack Notes app base on project quickstarter for SSR with Express.js and Next.js.
 
 ## Libraries used in project:
 
