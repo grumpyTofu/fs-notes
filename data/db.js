@@ -1,5 +1,6 @@
-var Datastore = require('nedb'), db = new Datastore(
+var Datastore = require('nedb'), 
+notes = new Datastore(
     { filename: './data/notes', autoload: true }
 );
 
-export default db;
+export default notes;

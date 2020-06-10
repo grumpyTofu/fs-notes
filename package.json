@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "nodemon server.js",
     "build": "next build",
+    "buildStatic": "next build && next export",
     "start": "NODE_ENV=production node server.js"
   },
   "dependencies": {
