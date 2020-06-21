@@ -9,14 +9,9 @@ app.prepare()
 .then(() => {
   const server = express();
 
-  server.get('*', (req, res) => {
+  server.all('*', (req, res) => {
     return handle(req, res);
   });
-  
-//   server.post('/api/test', (req, res) => {
-//     console.log("Test successful!")
-//     res.send("Test Successful!")
-//   })
 
   server.listen(3000, (err) => {
     if (err) throw err

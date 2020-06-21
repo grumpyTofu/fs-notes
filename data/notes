@@ -1,1 +1,7 @@
-{"hello":"world","n":5,"today":{"$$date":1591745855916},"nedbIsAwesome":true,"notthere":null,"fruits":["apple","orange","pear"],"infos":{"name":"nedb"},"_id":"FPbWBXGBj3TbSxGl"}
+{"title":"Hello","content":"Hello Hyejee","_id":"G1useNKT7o7TtmGe"}
+{"title":"New Note Again","content":"Trying to keep the date, cross your fingers","created":"2020-June-0","_id":"JKTn6SWw3kK6Hznh"}
+{"title":"New Note With a new title Testing super long ass title","content":"This is a new note with some content and hopefully a date? Let's add some content... and more content :) does it still work?","_id":"Sd0Lii0k11mx0Akh"}
+{"title":"test","content":"test with date","created":"1,591,837,091,157","_id":"Z2FODG8yK8iIu76d"}
+{"title":"test again please","content":"jsdla;fjdsla;kjflas;dfjjffdskla;fjd;slajf;dsajghf;dsalkfjdsaf","_id":"ZQz5byoj561BAS3F"}
+{"title":"I corrected the date","content":"Now try to keep it that way! Is it still the same?\n","created":"2020-June-21","_id":"xEm3LkzOwUqqcopj"}
+{"title":"I corrected the date","content":"Now try to keep it that way! Is it still the same? Its still the same :)\n","created":"2020-June-21","_id":"xEm3LkzOwUqqcopj"}

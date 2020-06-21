@@ -12,7 +12,7 @@ import Layout from '../components/Layout';
 
 const useStyles = makeStyles(theme => ({
     root: {
-        display: 'flex',
+        width: '100vw',
     },
     toolbar: {
         display: 'flex',
@@ -45,6 +45,8 @@ const App = ({ Component, pageProps }) => {
             <Head>
                 <title>SSR Starter Template</title>
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+                <meta name="theme-color" content={theme.palette.primary.main} />
+                <link rel="icon" type="image/x-icon" href="/favicon.ico" />
                 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossOrigin="anonymous" />
                 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
             </Head>
@@ -54,7 +56,7 @@ const App = ({ Component, pageProps }) => {
                     <Navbar />               
                     <Layout>
                         <Container className="p-4">
-                            <div className={classes.toolbar} />
+                            {/* <div className={classes.toolbar} /> */}
                             <Component {...pageProps} />
                         </Container>
                     </Layout>
